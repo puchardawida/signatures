@@ -1,0 +1,294 @@
+.btn-small-icon, .btn-def-icon{
+    background: none;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.btn-small-icon-dark, .btn-smart{
+    align-items: center;
+    background: #333333;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.btn-smart{
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.btn-small-icon:hover{
+    background: #111111;
+    color: #fefefe;
+}
+
+.btn-small-icon-dark:hover, .btn-smart:hover{
+    background: #fefefe;
+    border: 1px solid #333333;
+    color: #333333;
+    transition: background 0.5s, color 0.5s;
+}
+
+.bg-violet{
+    background: #a0506f;
+}
+
+.bg-orange{
+    background: #da6c24;
+}
+
+.bg-blue{
+    background: #4993bd;
+}
+
+.bg-green{
+    background: #5FB404;
+}
+
+.bg-red{
+    background: #DF013A;
+}
+
+.bg-grey{
+    background: #cfcfcf;
+}
+
+.bg-light-grey{
+    background: #ededed;
+}
+
+.btn-def-icon{
+    background: none;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-green{
+    color: green;
+}
+
+.text-orange{
+    color: orange;
+}
+
+.text-violet{
+    color: violet;
+}
+
+.text-blue{
+    color: #0d6efd;
+}
+
+.text-brown{
+    color: brown;
+}
+.background-white{
+    background-color: #fefefe;
+}
+
+.modal-backdrop {background: none; display: none;}
+.modal{background: none;}
+
+.modal-header{
+    background: #fefefe !important;
+    color: #000000 !important;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+
+}
+
+.modal-footer{
+    background: #fefefe !important;
+}
+
+.container-filter .row{
+    background: #dddddd;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container-filter{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+}
+
+#main{
+    background: #eeeeee;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-super-light{
+    background: #eeeeee;
+}
+
+.row-title{
+    background: #ddd;
+    *color: #fefefe;
+    margin: 0;
+    *border-top-left-radius: 10px;
+    *border-top-right-radius: 10px;
+    *border-left: 3px solid #aaa;
+    *border-top: 3px solid #aaa;
+    *border-right: 3px solid #aaa;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    min-height: 100%;
+}
+
+.toast{
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 10000;
+}
+
+.ml-1em{
+    margin-left: 1em;
+}
+
+.mr-1em{
+    margin-right: 1em;
+}
+.toast{
+    min-width: 350px;
+    max-width: 90%;
+    width: auto !important;
+}
+.toast-body{
+    overflow: auto;
+    max-height: 350px;
+}
+
+.form-element-custom{
+    font-size: 15px;
+    height: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: .325rem;
+    padding-right: .325rem;
+}
+
+.form-element-custom-small{
+    font-size: 10px;
+    height: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: .325rem;
+    padding-right: .325rem;
+}
+
+.h-46px{
+    height: 46px;
+}
+
+
+table caption{
+	caption-side: top !important;
+}
+
+.border-left-2-light{
+    border-left: 2px solid #dddddd;
+}
+
+.border-bottom-1-light{
+    border-bottom: 1px solid #dddddd;
+}
+
+.border-bottom-2-light{
+    border-bottom: 2px solid #dddddd;
+}
+
+.btn-classic-smart{
+    border: none;
+    border-bottom: 2px solid #444;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 0px 2px 0px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+
+.btn-classic-smart:hover{
+    background: #fefefe;
+    color: #333333;
+}
+
+.bg-light-dark{
+    background: #555555;
+}
+
+.text-shadow-1-1-0{
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.text-shadow-none{
+    text-shadow: none;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.label-long{
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.25rem !important;
+}
+
+.label-short{
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 0.25rem !important;
+}
+
+.container-panel{
+    overflow: auto;
+    position: fixed;
+
+}
+
+table.table-bordered-2px td{
+    border-bottom: 2px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
