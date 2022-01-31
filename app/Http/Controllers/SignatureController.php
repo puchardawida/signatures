@@ -34,7 +34,7 @@ class SignatureController extends Controller
 
         $banner_url = $this->makeBase64Image("/assets/files/signature/".$company->banner_url);
         $google_image = $this->makeBase64Image("/assets/files/signature/google.png");
-        $photo = $this->makeBase64Image("/assets/files/people/".strtolower(str_replace(' ', '_', $request->name)).".jpg");
+        $photo = $this->makeBase64Image("/assets/files/people/".strtolower(str_replace(' ', '_', str_replace('-', '_', $request->name))).".jpg");
 
         return view('signatures.signature', compact(['company', 'contacts', 'places', 'companies_places', 'greeting', 'photo','google_image', 'banner_url','request']));
     }
