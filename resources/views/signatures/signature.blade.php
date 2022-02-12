@@ -72,7 +72,7 @@
                                                         <img width="20" height="20" style="width: 20px; height: 20px;" src="{{$contact['icon']}}">                                                       
                                                     </td>
                                                     <td cellpadding="0" cellspacing="0" style="font-size: 11px; padding; 0; margin: 0; padding-left: 5px; font-weight: 400; border: none;">
-                                                        <a href="{{$contact['url']}}" style="text-decoration: none; color: #000000;">
+                                                        <a href="{{$contact['url']}}" style="text-decoration: none; color: #000000; border: none;">
                                                             {{$contact['value']}}
                                                         </a>
                                                     </td>
