@@ -10,7 +10,7 @@
     <div id="signature">
         <table  style="font-family: arial, sans-serif; font-size: 10px; border-collapse: collapse; color: #2b2a29; border: none;">
             <tr>
-                <td style="padding-bottom: 10px;">
+                <td style="padding-bottom: 10px; border: none;">
                     <span style="font-size: 12px; font-weight: 400px; font-family: arial; border: none;">
                         {{$greeting->name}},
                     </span>
@@ -21,7 +21,7 @@
             </tr>
             <tr>
                 <td style="border: none; padding:0; margin:0;">
-                    <table style="padding:0; margin:0;">
+                    <table style="padding:0; margin:0; border: none;">
                         <tr>
                             <td style="border: none; padding-top: 25px; margin-top: 0px; width: 300px;">
                                 <table>
