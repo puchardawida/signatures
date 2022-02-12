@@ -95,10 +95,10 @@
                     <table style="width: 800px;">
                         <tr>
                             <td style="width: 600px; font-size: 11px; border: none;">
-                                <div style="padding-top: 2px; padding-bottom: 2px;">
-                                    <span style="font-weight: 600; padding-right: 4px;">GRUPA MAKURAT</span>
-                                    <span style="color:#e10123; font-weight: 700;">|</span>
-                                    <span style="padding-left: 4px;">{{$company->name_signature}}</span>
+                                <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
+                                    <span style="font-weight: 600; padding-right: 4px; border: none;">GRUPA MAKURAT</span>
+                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                    <span style="padding-left: 4px; border: none;">{{$company->name_signature}}</span>
                                     <br>
                                 </div>
                                 @foreach($companies_places as $company_place)
