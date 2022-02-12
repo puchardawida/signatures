@@ -47,7 +47,7 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td style="border-top: 1px solid #e10123;"></td>
+                                                                <td style="border-left: none; border-right: none; border-bottom: none; border-top: 1px solid #e10123;"></td>
                                                             </tr>
                                                             <tr>
                                                                 <td style="font-weight: 700; font-size: 11px; text-transform: uppercase; border: none;">
