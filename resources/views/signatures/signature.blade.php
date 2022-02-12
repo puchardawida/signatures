@@ -105,18 +105,18 @@
                                     @if($company_place->company_id == $company->id)
                                         @foreach($places as $place)
                                             @if($place->id == $company_place->place_id)                            
-                                                <div style="padding-top: 2px; padding-bottom: 2px;">
-                                                    <span style="padding-right: 4px;">
+                                                <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
+                                                    <span style="padding-right: 4px; border: none;">
                                                         {{$place->name}}:
                                                         {{$place->address}}
                                                     </span>
                                                     @if(strlen($place->phone) > 0)
-                                                        <span style="color:#e10123; font-weight: 700;">|</span>
-                                                        <span style="padding-right: 4px; padding-left: 4px;">{{$place->phone}}</span>
+                                                        <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                                        <span style="padding-right: 4px; padding-left: 4px; border: none;">{{$place->phone}}</span>
                                                     @endif
                                                     @if(strlen($place->email) > 0)
-                                                        <span style="color:#e10123; font-weight: 700;">|</span>
-                                                        <span style="padding-left: 4px;">{{$place->email}}</span>
+                                                        <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                                        <span style="padding-left: 4px; border: none;">{{$place->email}}</span>
                                                     @endif
                                                 </div>
                                             @endif
@@ -125,11 +125,11 @@
                                 @endforeach
 
                                 <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
-                                    <span style="padding-right: 4px;">NIP {{$company->nip}}</span>
-                                    <span style="color:#e10123; font-weight: 700;">|</span>
-                                    <span style="padding-right: 4px; padding-left: 4px;">REGON {{$company->regon}}</span>
-                                    <span style="color:#e10123; font-weight: 700;">|</span>
-                                    <span style="padding-left: 4px;">KRS {{$company->krs}}</span>
+                                    <span style="padding-right: 4px; border: none;">NIP {{$company->nip}}</span>
+                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                    <span style="padding-right: 4px; padding-left: 4px; border: none;">REGON {{$company->regon}}</span>
+                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                    <span style="padding-left: 4px; border: none;">KRS {{$company->krs}}</span>
                                 </div>
                             </td>
                             <td style="width: 200px; text-align: right; border: none;" width="200">
