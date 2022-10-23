@@ -98,7 +98,6 @@
                                 <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
                                     <span style="font-weight: 600; padding-right: 4px; border: none;">GRUPA MAKURAT</span>
                                     <span style="color:#e10123; font-weight: 700; border: none;">|</span>
-                                    <span style="padding-left: 4px; border: none;">{{$company->name_signature}}</span>
                                     <br>
                                 </div>
                                 @foreach($companies_places as $company_place)
@@ -123,14 +122,6 @@
                                         @endforeach
                                     @endif
                                 @endforeach
-
-                                <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
-                                    <span style="padding-right: 4px; border: none;">NIP {{$company->nip}}</span>
-                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
-                                    <span style="padding-right: 4px; padding-left: 4px; border: none;">REGON {{$company->regon}}</span>
-                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
-                                    <span style="padding-left: 4px; border: none;">KRS {{$company->krs}}</span>
-                                </div>
                             </td>
                             <td style="width: 200px; text-align: right; border: none;" width="200">
                                 <a href="{{$company->google_url}}">
