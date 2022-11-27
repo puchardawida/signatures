@@ -8,7 +8,7 @@
 
     <br><br>
     <div id="signature">
-        <table  style="font-family: arial, sans-serif; font-size: 10px; border-collapse: collapse; color: #2b2a29; border: none;">
+        <table style="font-family: arial, sans-serif; font-size: 10px; border-collapse: collapse; color: #2b2a29; border: none;">
             <tr>
                 <td style="padding-bottom: 10px; border: none;">
                     <span style="font-size: 12px; font-weight: 400px; font-family: arial; border: none;">
@@ -27,7 +27,7 @@
                                 <table>
                                     <tr>
                                         <td style="border: none;">
-                                            <table>
+                                            <table style="border: none;">
                                                 <tr>
                                                     @if($request->show_photo)
                                                     <td style="border: none;">
@@ -39,8 +39,8 @@
                                                         >
                                                     </td>
                                                     @endif
-                                                    <td @if($request->show_photo) style="padding-left: 10px; border: none;" @endif>
-                                                        <table>
+                                                    <td style="border: none; @if($request->show_photo) padding-left: 10px; @endif">
+                                                        <table style="border: none;">
                                                             <tr>
                                                                 <td style="font-weight: 700; font-size: 14px; text-transform: uppercase; border: none;">
                                                                     {{$request->name}}
@@ -122,6 +122,14 @@
                                         @endforeach
                                     @endif
                                 @endforeach
+
+                                <div style="padding-top: 2px; padding-bottom: 2px; border: none;">
+                                    <span style="padding-right: 4px; border: none;">NIP {{$company->nip}}</span>
+                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                    <span style="padding-right: 4px; padding-left: 4px; border: none;">REGON {{$company->regon}}</span>
+                                    <span style="color:#e10123; font-weight: 700; border: none;">|</span>
+                                    <span style="padding-left: 4px; border: none;">KRS {{$company->krs}}</span>
+                                </div>
                             </td>
                             <td style="width: 200px; text-align: right; border: none;" width="200">
                                 <a href="{{$company->google_url}}">
